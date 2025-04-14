@@ -1,7 +1,9 @@
-composer create-project "laravel/laravel:^11.0" todo_wib
-cd todo_wib
+composer create-project "laravel/laravel:^11.0" (folder name)\
+
+cd (folder naem)
 
 composer require laravel/breeze --dev
+
 php artisan breeze:install
 
 php artisan migrate
